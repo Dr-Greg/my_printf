@@ -1,8 +1,8 @@
 #include "../inc/header.h"
 
-void		switch_opt(const char *str, va_list *args)
+void    switch_opt(const char *str, va_list *args)
 {
-    int		i;
+    int i;
 
     i = -1;
     while (str[++i] !=  '\0')

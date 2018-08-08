@@ -8,17 +8,17 @@ void        arg_i(va_list *args)
     my_put_nbr(nbr);
 }
 
-void		arg_c(va_list *args)
+void        arg_c(va_list *args)
 {
-    char	c;
+    char    c;
 
     c = va_arg(*args, int);
     my_putchar(c);
 }
 
-void		arg_s(va_list *args)
+void        arg_s(va_list *args)
 {
-    char	*arr;
+    char    *arr;
 
     arr = va_arg(*args, char *);
     my_putstr(arr);

@@ -20,9 +20,9 @@ void		switch_opt(const char *str, va_list *args)
             case 'b': arg_b(args); break;
             case '%': my_putchar(str[i]); break;
             }
-            if (++i >= my_const_strlen(str))
+            if (++i >= my_strlen(str))
                 return;
-        }
+        }                                                                                                                          
         if (str[i] == '%')
             --i;
         else

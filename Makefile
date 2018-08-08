@@ -14,7 +14,7 @@ A		=		libmy_printf_`uname -m`-`uname -s`.a
 SO		=		libmy_printf_`uname -m`-`uname -s`.so
 CFLAGS		=		-W -Wall -Werror -Wextra -Wpedantic -fPIC
 
-all:					my_printf_static my_printf_dynamic
+all:				my_printf_static my_printf_dynamic
 
 my_printf_static:		$(OBJ)
 				ar r $(A) $(OBJ)

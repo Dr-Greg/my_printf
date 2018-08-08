@@ -1,6 +1,6 @@
 #include "../../inc/header.h"
 
-void   	my_putnbr_base(int nbr, char *base)
+void  my_putnbr_base(int nbr, char *base)
 {
    int	lent;
 

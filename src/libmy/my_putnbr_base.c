@@ -2,7 +2,7 @@
 
 void    my_putnbr_base(int nbr, char *base)
 {
-   int	lent;
+   int  lent;
 
   lent = my_strlen(base);
   if (nbr < 0)

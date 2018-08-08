@@ -1,8 +1,8 @@
 #include "../../inc/header.h"
 
-int    	my_strlen(const char *str)
+int   my_strlen(const char *str)
 {
-  int	  i;
+  int i;
 
   i = -1;
   while (str[++i] != '\0') {}

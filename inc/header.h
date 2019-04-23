@@ -6,7 +6,7 @@
 
 void	my_putchar(char c); /* Prints a char. */
 void	my_putstr(char *str); /* Prints a string. */
-int	  my_strlen(const char *str); /* Returns the length of a string. */
+int	my_strlen(const char *str); /* Returns the length of a string. */
 void	my_aff_tab_num(int arr[], int size); /* Prints an integer array. */
 void	my_put_nbr(int nbr); /* Prints a number. */
 void	my_put_unsigned_nbr(unsigned int  nbr); /* Prints an unsigned int */
